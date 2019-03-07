@@ -27,7 +27,7 @@ public class DemoController {
 
 	@RequestMapping("/{input}")
 	public String congrats(@PathVariable String input) {
-		return "Congrats " + input + " your application deployed successfully "	;
+		return "Congratulazioni: " + input + " your application deployed successfully "	;
 	}
 
 
