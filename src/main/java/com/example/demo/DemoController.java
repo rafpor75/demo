@@ -22,7 +22,7 @@ public class DemoController {
 	public String welcome() {
 		
 
-		return "Welcome to Demo APP";
+		return "Welcome to Demo APP2";
 	}
 
 	@RequestMapping("/{input}")
