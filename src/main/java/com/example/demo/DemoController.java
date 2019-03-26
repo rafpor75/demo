@@ -20,6 +20,7 @@ public class DemoController {
 
 	@RequestMapping("/")
 	public String welcome() {
+		for(int i=0;i<100000;i++);
 		
 		return "Ciao <img src='https://www.newspam.it/media/uploads/2016/08/mare-696x522.jpg'>";
 	}
