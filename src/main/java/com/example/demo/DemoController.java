@@ -21,8 +21,7 @@ public class DemoController {
 	@RequestMapping("/")
 	public String welcome() {
 		
-
-		return "<img src='https://www.newspam.it/media/uploads/2016/08/mare-696x522.jpg'>";
+		return "Ciao <img src='https://www.newspam.it/media/uploads/2016/08/mare-696x522.jpg'>";
 	}
 
 	@RequestMapping("/{input}")
