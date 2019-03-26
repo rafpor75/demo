@@ -22,7 +22,7 @@ public class DemoController {
 	public String welcome() {
 		
 
-		return "Welcome to Demo APP2";
+		return "<img src='https://www.newspam.it/media/uploads/2016/08/mare-696x522.jpg'>";
 	}
 
 	@RequestMapping("/{input}")
