@@ -22,7 +22,7 @@ public class DemoController {
 	public String welcome() {
 		for(int i=0;i<100000;i++);
 		
-		return "Ciao Immagine 4<img src='https://www.newspam.it/media/uploads/2016/08/mare-696x522.jpg'>";
+		return "Ciao Immagine 5<img src='https://www.newspam.it/media/uploads/2016/08/mare-696x522.jpg'>";
 	}
 
 	@RequestMapping("/{input}")
